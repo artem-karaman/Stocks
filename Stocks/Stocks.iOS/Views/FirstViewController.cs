@@ -1,49 +1,40 @@
 ﻿using Cirrious.FluentLayouts.Touch;
 using MvvmCross.Binding.BindingContext;
+using MvvmCross.iOS.Views;
+using Stocks.Core.ViewModels;
 using UIKit;
-using $saferootprojectname$.Core.ViewModels;
 
-namespace Stocks.iOS.Views
+
+namespace Stocks.iOS.ViewController
 {
-	public class FirstViewController : BaseViewController<FirstViewModel>
+	public class FirstViewController : MvxTableViewController<FirstViewModel>
 	{
-		UIButton _goForwardButton;
+		UIBarButtonItem _refreshButton;
 		MvxFluentBindingDescriptionSet<FirstViewController, FirstViewModel> _bindingSet;
 
 		public override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
 
-			Title = "First View";
-
-			CreateViewElements();
-
-			LayoutViewElements();
+			CreateUIElements();
 
 			Bind();
 		}
 
-		void CreateViewElements()
+		private void CreateUIElements()
 		{
-			_goForwardButton = new UIButton(UIButtonType.RoundedRect);
-			_goForwardButton.SetTitle("Go Forward", UIControlState.Normal);
-			Add(_goForwardButton);
-		}
-
-		void LayoutViewElements()
-		{
-			View.AddConstraints(new FluentLayout[]
-			{
-				_goForwardButton.AtTopOf(View, 12f),
-				_goForwardButton.WithSameCenterX(View)
-			});
+			_refreshButton = new UIBarButtonItem() { Image = UIImage.FromBundle("") };
 		}
 
 		void Bind()
 		{
 			_bindingSet = this.CreateBindingSet<FirstViewController, FirstViewModel>();
 
-			_bindingSet.Bind(_goForwardButton).To(vm => vm.GoForwardCommand);
+			//var source = new Source(TableView);
+			//TableView.Source = source;
+
+			_bindingSet.Bind().For(vc => vc.Title).To(vm => vm.Title);
+			//_bindingSet.Bind(source).To(vm => vm.Stocks);
 
 			_bindingSet.Apply();
 		}

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stocks.Core", "Stocks\Stocks.Core\Stocks.Core.csproj", "{F2A402AB-E203-4DCC-91A3-B3A349425F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stocks.iOS", "$saferootprojectname$.iOS1\Stocks.iOS.csproj", "{150F2FCE-C506-4554-A1A6-A1900673BC43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stocks.iOS", "Stocks\Stocks.iOS\Stocks.iOS.csproj", "{150F2FCE-C506-4554-A1A6-A1900673BC43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

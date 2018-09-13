@@ -1,0 +1,16 @@
+﻿
+.vs
+*.suo
+*.user
+*.csproj.bak
+Resource.Designer.cs
+bin
+obj
+packages
+/Components
+/UpgradeLog.htm
+/UpgradeLog2.htm
+/UpgradeLog3.htm
+/UpgradeLog4.htm
+/UpgradeLog5.htm
+/UpgradeLog6.htm

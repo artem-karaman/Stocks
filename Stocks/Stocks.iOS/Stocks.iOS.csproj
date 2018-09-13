@@ -212,29 +212,9 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="Views\BaseViewController.cs" />
     <Compile Include="Views\FirstViewController.cs" />
-    <Compile Include="Views\SecondViewController.cs" />
-    <BundleResource Include="Resources\Icon@2x.png" />
-    <BundleResource Include="Resources\Icon-60@2x.png" />
-    <BundleResource Include="Resources\Icon-72.png" />
-    <BundleResource Include="Resources\Icon-72@2x.png" />
-    <BundleResource Include="Resources\Icon-76.png" />
-    <BundleResource Include="Resources\Icon-76@2x.png" />
-    <BundleResource Include="Resources\Icon-Small@2x.png" />
-    <BundleResource Include="Resources\Icon-Small-50.png" />
-    <BundleResource Include="Resources\Icon-Small-50@2x.png" />
-    <BundleResource Include="Resources\Icon-Small-40.png" />
-    <BundleResource Include="Resources\Icon-Small-40@2x.png" />
-    <BundleResource Include="Resources\Icon.png" />
-    <BundleResource Include="Resources\Icon-Small.png" />
-    <BundleResource Include="Resources\Default.png" />
-    <BundleResource Include="Resources\Default@2x.png" />
-    <BundleResource Include="Resources\Default-568h@2x.png" />
-    <BundleResource Include="Resources\Default-Portrait.png" />
-    <BundleResource Include="Resources\Default-Portrait@2x.png" />
-    <BundleResource Include="Resources\Default-Landscape@2x.png" />
-    <BundleResource Include="Resources\Default-Landscape.png" />
+    <BundleResource Include="Resources\refresh.png" />
+    <BundleResource Include="Resources\sum.png" />
     <None Include="app.config" />
     <None Include="Info.plist">
       <SubType>Designer</SubType>
@@ -245,6 +225,7 @@
     </Content>
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
+    <InterfaceDefinition Include="LaunchScreen.xib" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -289,15 +270,15 @@
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Stocks.Core\Stocks.Core.csproj">
-      <Project>{f2a402ab-e203-4dcc-91a3-b3a349425f5a}</Project>
-      <Name>%24saferootprojectname%24.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Analyzer Include="..\..\packages\MvvmCross.CodeAnalysis.5.0.1\analyzers\dotnet\cs\MvvmCross.Core.dll" />
     <Analyzer Include="..\..\packages\MvvmCross.CodeAnalysis.5.0.1\analyzers\dotnet\cs\MvvmCross.Platform.dll" />
     <Analyzer Include="..\..\packages\MvvmCross.CodeAnalysis.5.0.1\analyzers\dotnet\cs\MvvmCrossCodeAnalysis.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stocks.Core\Stocks.Core.csproj">
+      <Project>{f2a402ab-e203-4dcc-91a3-b3a349425f5a}</Project>
+      <Name>Stocks.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
