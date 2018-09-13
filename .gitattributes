@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF normalization
+
+*        text eol=crlf
+*.cs     text diff=csharp
+
+/Tools/* text eol=lf
+*.sh     text eol=lf
+
+*.csproj text merge=union
+*.sln    text merge=union eol=crlf
+
+*.jpg binary
+*.png binary
+*.pdf binary
+*.dll binary
+*.otf binary

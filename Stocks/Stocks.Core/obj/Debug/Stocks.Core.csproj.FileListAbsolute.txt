@@ -1,0 +1,16 @@
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\Stocks.Core.dll.config
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\Stocks.Core.dll
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\Stocks.Core.pdb
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\MvvmCross.Core.dll
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\MvvmCross.Platform.dll
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\MvvmCross.Plugins.Json.dll
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\MvvmCross.Core.pdb
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\MvvmCross.Platform.pdb
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\MvvmCross.Plugins.Json.pdb
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\obj\Debug\Stocks.Core.csproj.CoreCompileInputs.cache
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\obj\Debug\Stocks.Core.csproj.CopyComplete
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\obj\Debug\Stocks.Core.dll
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\obj\Debug\Stocks.Core.pdb
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.Core\obj\Debug\Stocks.Core.csprojAssemblyReference.cache
