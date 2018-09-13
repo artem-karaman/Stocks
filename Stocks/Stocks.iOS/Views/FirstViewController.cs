@@ -24,7 +24,8 @@ namespace Stocks.iOS.ViewController
 
 		private void CreateUIElements()
 		{
-			_refreshButton = new UIBarButtonItem() { Image = UIImage.FromBundle("") };
+			_refreshButton = new UIBarButtonItem(UIBarButtonSystemItem.Refresh);
+			NavigationItem.SetRightBarButtonItem(_refreshButton, animated: true);
 		}
 
 		void Bind()
