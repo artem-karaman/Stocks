@@ -215,6 +215,11 @@
     <Compile Include="Views\FirstViewController.cs" />
     <BundleResource Include="Resources\refresh.png" />
     <BundleResource Include="Resources\sum.png" />
+    <Compile Include="Views\TableView\Cells\StockTableViewCell.cs" />
+    <Compile Include="Views\TableView\Cells\StockTableViewCell.designer.cs">
+      <DependentUpon>StockTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableView\Source.cs" />
     <None Include="app.config" />
     <None Include="Info.plist">
       <SubType>Designer</SubType>
@@ -227,6 +232,7 @@
     <ITunesArtwork Include="iTunesArtwork@2x" />
     <InterfaceDefinition Include="LaunchScreen.xib" />
     <None Include="packages.config" />
+    <InterfaceDefinition Include="Views\TableView\Cells\StockTableViewCell.xib" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cirrious.FluentLayouts.Touch, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">

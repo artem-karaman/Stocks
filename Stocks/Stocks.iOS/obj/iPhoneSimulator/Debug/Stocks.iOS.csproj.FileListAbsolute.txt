@@ -45,3 +45,4 @@ C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.iOS
 C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.iOS\obj\iPhoneSimulator\Debug\Stocks.iOS.csproj.CopyComplete
 C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.iOS\obj\iPhoneSimulator\Debug\Stocks.iOS.exe
 C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.iOS\obj\iPhoneSimulator\Debug\Stocks.iOS.pdb
+C:\Users\akaraman\Documents\Visual Studio 2017\Projects\Stocks\Stocks\Stocks.iOS\obj\iPhoneSimulator\Debug\Stocks.iOS.csprojAssemblyReference.cache
