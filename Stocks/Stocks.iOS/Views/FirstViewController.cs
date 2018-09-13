@@ -37,6 +37,7 @@ namespace Stocks.iOS.ViewController
 
 			_bindingSet.Bind().For(vc => vc.Title).To(vm => vm.Title);
 			_bindingSet.Bind(source).To(vm => vm.Stocks);
+			_bindingSet.Bind(_refreshButton).To(vm => vm.RefreshStocksCommand);
 
 			_bindingSet.Apply();
 		}

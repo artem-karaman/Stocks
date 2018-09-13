@@ -14,6 +14,7 @@ namespace Stocks.Core.ViewModels
 	{
 		private IStockService _stockService;
 		private List<Stock> _stocks;
+		private IMvxAsyncCommand _refreshStocksCommand;
 		public string Title => "Stocks View";
 
 		public List<Stock> Stocks
@@ -30,6 +31,7 @@ namespace Stocks.Core.ViewModels
 		public FirstViewModel(IStockService stockService)
 		{
 			_stockService = stockService;
+			StartTimer();
 		}
 
 		public async override void Start()
@@ -48,6 +50,23 @@ namespace Stocks.Core.ViewModels
 			var stocks = await _stockService.GetStocks();
 
 			Stocks = stocks.Stock;
+		}
+
+		private async void StartTimer()
+		{
+			while (true)
+			{
+				await Task.Delay(15000);
+				await RefreshData();
+			}
+		}
+
+		public IMvxAsyncCommand RefreshStocksCommand
+		{
+			get
+			{
+				return _refreshStocksCommand ?? (_refreshStocksCommand = new MvxAsyncCommand(async () => await RefreshData()));
+			}
 		}
 	}
 }
