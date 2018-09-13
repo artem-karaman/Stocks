@@ -1,16 +1,36 @@
-﻿
-.vs
+﻿# User-specific files
 *.suo
 *.user
-*.csproj.bak
-Resource.Designer.cs
-bin
-obj
-packages
-/Components
-/UpgradeLog.htm
-/UpgradeLog2.htm
-/UpgradeLog3.htm
-/UpgradeLog4.htm
-/UpgradeLog5.htm
-/UpgradeLog6.htm
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
