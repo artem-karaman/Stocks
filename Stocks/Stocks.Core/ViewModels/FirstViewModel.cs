@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
 using Newtonsoft.Json;
+using Stocks.Core.Constants;
 using Stocks.Core.Contracts;
 using Stocks.Core.DTO;
 
@@ -47,7 +48,7 @@ namespace Stocks.Core.ViewModels
 
 		private async Task RefreshData()
 		{
-			var stocks = await _stockService.GetStocks();
+			var stocks = await _stockService.GetStocks(UrlConstants.StockUrl);
 
 			Stocks = stocks.Stock;
 		}

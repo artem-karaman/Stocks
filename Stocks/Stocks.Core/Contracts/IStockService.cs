@@ -8,6 +8,6 @@ namespace Stocks.Core.Contracts
 {
 	public interface IStockService
 	{
-		Task<DTO.Stocks> GetStocks();
+		Task<DTO.Stocks> GetStocks(string url);
 	}
 }

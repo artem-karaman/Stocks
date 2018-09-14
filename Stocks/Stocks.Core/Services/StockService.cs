@@ -14,14 +14,14 @@ namespace Stocks.Core.Services
 {
 	public class StockService : IStockService
 	{
-		public async Task<DTO.Stocks> GetStocks()
+		public async Task<DTO.Stocks> GetStocks(string url)
 		{
 			DTO.Stocks stocks = new DTO.Stocks();
 
 			try
 			{
 				var client = new HttpClient();
-				var json = await client.GetStringAsync(UrlConstants.StockUrl);
+				var json = await client.GetStringAsync(url);
 				stocks = JsonConvert.DeserializeObject<DTO.Stocks>(json.ToString());
 			}
 			catch (System.Exception ex)
